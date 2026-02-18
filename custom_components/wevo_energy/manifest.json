@@ -7,6 +7,5 @@
   "iot_class": "cloud_polling",
   "requirements": [],
   "config_flow": true,
-  "icon": "mdi:ev-station",
   "codeowners": ["@adi6409"]
 }
