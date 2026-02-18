@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sign in to Wevo",
+        "description": "Enter your Wevo account credentials",
+        "data": {
+          "email": "Email",
+          "password": "Password",
+          "base_url": "API Base URL",
+          "cognito_region": "Cognito Region",
+          "cognito_client_id": "Cognito Client ID"
+        }
+      },
+      "charger": {
+        "title": "Select charger",
+        "description": "Pick which charger to control",
+        "data": {
+          "charger_identifier": "Charger",
+          "connector": "Connector",
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Wevo",
+      "no_chargers": "No chargers found for this account",
+      "unknown": "Unexpected error"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Wevo settings",
+        "data": {
+          "scan_interval": "Update interval (seconds)",
+          "connector": "Connector"
+        }
+      }
+    }
+  }
+}
