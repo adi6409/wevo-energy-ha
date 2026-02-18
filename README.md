@@ -29,5 +29,5 @@ Custom Home Assistant integration for Wevo Energy chargers.
 ## Notes
 - Cognito defaults are preconfigured based on observed Wevo app behavior:
   - Region: `eu-central-1`
-  - Client ID: `2amm19et52j39kubdekse641b6`
+  - Client ID: `2amm11et52j39kubdekse641b6`
 - These are editable in setup in case Wevo changes auth settings.
