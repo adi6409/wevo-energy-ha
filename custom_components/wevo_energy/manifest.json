@@ -2,9 +2,11 @@
   "domain": "wevo_energy",
   "name": "Wevo Energy",
   "version": "0.2.0",
-  "documentation": "https://api.wevo.energy",
+  "documentation": "https://github.com/adi6409/wevo-energy-ha",
+  "issue_tracker": "https://github.com/adi6409/wevo-energy-ha/issues",
   "iot_class": "cloud_polling",
   "requirements": [],
   "config_flow": true,
+  "icon": "mdi:ev-station",
   "codeowners": ["@adi6409"]
 }
